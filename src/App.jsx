@@ -3,8 +3,9 @@ import Moldação from "./pages/Moldação";
 import Fusão from "./pages/Fusão";
 import "./App.css";
 import ESMERIL from "./pages/ESMERIL";
-import ACABAMENTO from "./pages/ACAbAMENTO";
+import PINTURA from "./pages/PINTURA";
 import EXPEDIÇÃO from "./pages/EXPEDIÇÃO";
+import CABIAMENTO from "./pages/CABIAMENTO";
 function App() {
   return (
     <>
@@ -30,7 +31,8 @@ function App() {
       <ESMERIL
         PODRUTO="ESMERIL"
       />
-      <ACABAMENTO PODRUTO="ACABAMENTO" />
+      <PINTURA PODRUTO="PINTURA" />
+      <CABIAMENTO PODRUTO="CABIAMENTO"/>
       <EXPEDIÇÃO
         PODRUTO="EXPEDIÇÃO"
       />
